@@ -18,6 +18,8 @@
 ```bash
 pip install filedarshan
 
+```
+
 ## 🔹 Usage
 
 # Summarize a single file
