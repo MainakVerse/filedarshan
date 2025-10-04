@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filedarshan"
+version = "0.1.0"
+description = "A CLI tool to summarize files and folders using AI"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name="Mainak Chaudhuri", email="mainakchaudhuri671@gmail.com"}]
+dependencies = ["pandas", "gemini"]  # keep minimal
+requires-python = ">=3.8"
+
+[project.scripts]
+filedarshan = "file_darshan.cli:main"
