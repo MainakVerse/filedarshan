@@ -22,10 +22,10 @@ pip install filedarshan
 
 ## 🔹 Usage
 
-# Summarize a single file
+Summarize a single file
 ai-file-summarizer ./data.csv
 
-# Summarize a folder
+Summarize a folder
 ai-file-summarizer ./my_project_folder
 
 
