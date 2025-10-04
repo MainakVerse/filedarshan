@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 from google import genai
-import os
-import json
+import os, json
 
 app = Flask(__name__)
 
@@ -11,6 +10,7 @@ client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 def summarize():
     info = request.json.get("info", {})
     prompt = f"Summarize this file/folder information:\n{json.dumps(info, indent=2)}"
+
     try:
         resp = client.models.generate_content(
             model="gemini-2.0-flash",
