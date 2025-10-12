@@ -1,0 +1,2 @@
+[console_scripts]
+filedarshan = file_darshan.cli:main

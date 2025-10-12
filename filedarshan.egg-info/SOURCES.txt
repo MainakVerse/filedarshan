@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+file_darshan/__init__.py
+file_darshan/ai_helper.py
+file_darshan/cli.py
+file_darshan/summarizer.py
+filedarshan.egg-info/PKG-INFO
+filedarshan.egg-info/SOURCES.txt
+filedarshan.egg-info/dependency_links.txt
+filedarshan.egg-info/entry_points.txt
+filedarshan.egg-info/requires.txt
+filedarshan.egg-info/top_level.txt
